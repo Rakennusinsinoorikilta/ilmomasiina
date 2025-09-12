@@ -1,7 +1,7 @@
 name: Build & deploy
 
 env:
-  ## Change this to upload the built image to your own organization.
+  # Change this to upload the built image to your own organization.
   docker_tag: "ghcr.io/Rakennusinsinoorikilta/ilmomasiina"
 
   # Change these to customize your build.
