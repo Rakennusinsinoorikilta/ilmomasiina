@@ -54,7 +54,7 @@ jobs:
       packages: write
       contents: read
     # Change this to your repo name to build automatically on your fork.
-    if: github.repository == 'Tietokilta/ilmomasiina'
+    if: github.repository == 'Rakennusinsinoorikilta/ilmomasiina'
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
