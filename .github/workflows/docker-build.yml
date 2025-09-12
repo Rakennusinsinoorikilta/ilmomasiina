@@ -48,7 +48,7 @@ jobs:
 
   docker:
     name: Push Docker image to GitHub Packages
-    needs: [lint, packagejson]
+    needs: [lint]
     runs-on: ubuntu-latest
     permissions:
       packages: write
